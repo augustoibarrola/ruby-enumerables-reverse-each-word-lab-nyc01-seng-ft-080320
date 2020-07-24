@@ -4,6 +4,6 @@ def reverse_each_word(i)
   string_as_array = i.split
   turn_me_back = ""
   string_as_array.map { |i| turn_me_back << i.reverse }
-  puts 'turn_me_back'.to_s
+  puts 'turn_me_back'.to_s(" ")
   binding.pry
 end
